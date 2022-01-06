@@ -1,0 +1,150 @@
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Prosto One', cursive;
+    font-family: 'Roboto', sans-serif;  
+    font-size: 14px;  
+}
+.div-body{
+    margin: 0 auto;
+    width: 80%;
+    background-color: #F5F5DC;  
+}
+container1{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.div-left{
+    width: 50%;
+    padding-top: 30px;
+    margin-left: 10%;
+}
+
+.div-left h1{
+    border-left: 3px solid crimson;  
+    font-family: 'Source Serif Pro', serif;
+}
+span{
+    color:tomato;
+}
+ a {
+    background-color: crimson;
+    padding:7px 15px;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 3px;
+    color: white;
+}
+.div-right{
+    width: 50%;
+    text-align: center;
+    margin-right:10%;
+}
+.div-right img{
+    height: 350px;
+    width: 300px;
+    padding-left: 25px;   
+}
+#div-header{
+    text-align: center;
+    color: #001A35;
+    margin-bottom: 30px;
+}
+
+container2{
+    width: 100%; 
+    display: flex; 
+    margin: 0 auto;
+    justify-content: center;  
+}
+container2 >div>img{
+    height: 100px;
+    width: 100px;  
+}
+
+.div-mission{
+    background-color: #d3d3d3; 
+    width: 23%;
+    margin-right:1%;
+    padding: 0px 2%;
+    border-radius: 15px;
+  
+}
+.div-vission{
+    background-color: #f0e68c;
+    width: 23%;
+    margin-left:1%;
+    margin-right:1%;
+    padding: 0px 2%;
+    border-radius: 15px;
+}
+.div-goals{
+    background-color: #FFDEAD;
+    width: 23%;
+    margin-left:1%;
+    padding: 0px 2%;
+    border-radius: 15px;
+}
+container3,container4,container5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+container3 .div-one{
+    width: 38%;    
+}
+container3 .div-one img {
+    width: 280px;
+    height: 250px;
+    margin-right:1%;   
+}
+container3 .div-two{
+    width: 45%;
+    margin-left: 1%;
+    
+}
+container4 .div-text{
+    width: 45%;
+    margin-right: 1%;
+}
+container4 .div-image{
+    width: 38%;    
+}
+container4 .div-image img{
+    width: 280px;
+    height: 250px;
+    margin-left: 1%;
+    padding-bottom: 50px;
+}
+
+container5 .covid-app{
+    width: 38%;
+}
+container5 .covid-app img{
+    width: 280px;
+    height: 350px;
+    margin-left: 1%;
+    border-radius: 25px;
+}
+container5 .covid-safe{
+    width: 45%;
+    margin-right: 1%;
+}
+footer{
+    height: 80px;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
+footer h1{
+    font-family: 'Source Serif Pro', serif;;   
+}
+container4{
+    
+}
